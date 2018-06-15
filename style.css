@@ -4,7 +4,8 @@ body
 	margin: 88px 0px 0px 0px ;
 	background-color:#f5f5f5;
     font-family: 'Oxygen', sans-serif;
-    line-height: 140%;
+    line-height: 150%;
+    color:#333333;
 }
 a {
     text-decoration: none;
@@ -75,7 +76,7 @@ a:hover {
 	background-color: #ffffff;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #edito h2
@@ -96,7 +97,7 @@ div.element
 	background-color: #ffffff;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 div.element img
@@ -115,6 +116,9 @@ p
 h2,h3
 {
 	text-align: center;
+    line-height: 140%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #footer
